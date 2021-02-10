@@ -1,0 +1,244 @@
+body{
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+/*--------common--------*/
+h1{
+    font-size: 36px;
+}
+h4{
+    font-size: 16px;
+}
+h6{
+    font-size:12px;
+}
+p{
+    font-size: 13px;
+}
+a{
+    font-size: 12px;
+}
+/*-----------header top----------*/
+.b-right{
+    color:#9f9f9f;
+    position: relative;
+}
+.b-right::after{
+    content: "";
+    width: 1px;
+    height: 15px;
+    background: #9f9f9f;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+.b-right-2{
+    color:#9f9f9f;
+    position: relative;
+}
+.b-right-2::after{
+    content: "";
+    width: 1px;
+    height: 15px;
+    background: #9f9f9f;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+.b-right-3{
+    color:#9f9f9f;
+    position: relative;
+}
+.b-right-3::after{
+    content: "";
+    width: 1px;
+    height: 15px;
+    background: #9f9f9f;
+    position: absolute;
+    left: 85px;
+    top: 10px;
+}
+.b-right-4{
+    color: #9f9f9f;
+}
+.text-color:hover{
+    color:#fff;
+}
+.b-right-2:hover{
+    color:#fff;
+}
+.b-right-3:hover{
+    color:#fff;
+}
+.b-right-4:hover{
+    color:#fff;
+}
+.nav-item-link a i{
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    background: #9f9f9f;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 9px;
+    margin-top: 2px;
+}
+.nav-item-link a i:hover{
+    background: #db4a39;
+}
+.btn:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+    transition: all .4s;
+}
+/* header top end */
+/*----header start----*/
+.site-nav li a{
+    color: #2e2e2e
+}
+.site-nav li a:hover{
+    color: #0099ff;
+}
+.active{
+    position: relative;
+    
+}
+.active::after{
+    content: "";
+    width: 90%;
+    height: 3px;
+    background-color: #0099ff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*----header end----*/
+/*----logo sections----*/
+.my-lg-0 .header-input {
+    font-size: 13px;
+    background: #f1f1f1;
+    color: #989898;
+    border: none;
+}
+.my-lg-0 .header-input:focus {
+    background-color: #f1f1f1;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,.0);
+}
+.btn-info{
+    background-color: #0099ff;
+    text-transform: uppercase;
+    border: none;
+    padding: 7px 14px;
+    font-size: 12px;
+}
+.btn-info:hover{
+    background-color: #0099ff;
+    border: none;
+}
+.btn-info:active{
+    color: #fff;
+    background-color: #0099ff;
+    border-color: #0099ff;
+
+}
+/*----slider sections----*/
+.slider-img{
+    background-image: url(asset/hero.jpg);
+    height: 470px;
+    background-position: top center;
+}
+.hero-text{
+    padding-top: 145px;
+}
+.btn-group-lg>.btn, .btn-slider {
+    padding: 0.5rem 2rem;
+    font-size: 16px;
+    background-color: #0099ff;
+}
+.btn-group-lg>.btn, .btn-slider:hover {
+    padding: 0.5rem 2rem;
+    background-color: #0099ff;
+}
+.btn-group-lg>.btn, .btn-slider:active {
+    padding: 0.5rem 2rem;
+    background-color: #0099ff;
+}
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #0099ff;
+    border-color: #0099ff;
+}
+/*----shout sections----*/
+.intro-title{
+    color: #0099ff;
+}
+.shout{
+    border-left: 10px solid #0099ff;
+    background-color: #f1f1f1;
+}
+.btn-shout{
+    padding: 12px 18px;
+    font-size: 26px;
+}
+.shout-title{
+    color: #333;
+}
+.pb-1 i{
+    font-size: 10px;
+    margin-right: 5px;
+}
+/*----footer sections----*/
+.footer-link-item{
+    border-bottom: 1px solid rgba(35, 35, 35, .5);
+}
+.font-weight-light li a{
+    text-decoration: none;
+}
+.btn-link{
+    color: #0099ff;
+    font-size: 12px;
+}
+.btn-link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.form-control{
+    font-size: 13px;
+    background: #232323;
+    color: #989898;
+    border: none;
+ }
+ .site-footer{
+     background-color: #1a1a1a;
+ }
+.footer-item li a{
+     color: #0099ff;
+ }
+ .footer-item li a:hover{
+    color: #fff;
+}
+.btn-primary{
+    background-color: #0099ff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.btn-primary:hover{
+    background-color: #0099ff;
+}
+.site-footer-text{
+    color: #666666;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #232323;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,.0);
+}
+/*----copyright sections----*/
+.site-footer-copyright{
+     background: #222222;
+ }
